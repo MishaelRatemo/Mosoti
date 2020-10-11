@@ -1,0 +1,271 @@
+/*
+* {
+	margin: 0.6vw;
+	padding: 0px;
+	box-sizing: border-box;
+}
+*/
+
+/*
+#main-container {
+	background-color: beige;
+
+}
+*/
+
+#header {
+
+	width: 95%;
+	background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1)),
+	url(TITLEPIC.jpg);
+	background-attachment: local;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	align-items: center;
+	justify-content: center;
+	border-radius: 30px 30px 0px 0px;
+	text-align: center;
+	height: 50vh;
+}
+
+/*
+#header h1:hover {
+	color: gold;
+	transition: 0.9s;
+	font-size: 6.5vw;
+}
+
+.menu {
+	width: 95%;
+	background-color: black;
+}
+
+nav {
+	text-align: center;
+	margin: 0px auto;
+	width: 90%;
+}
+
+ul {
+	margin: 0px auto;
+	padding: 0px;
+	list-style: none;
+
+}
+
+ul li {
+	display: inline-block;
+	float: left;
+	border-radius: 12px;
+	font-size: 20px;
+	line-height: 20px;
+	width: 130px;
+	font-weight: 600;
+}
+
+ul li a {
+	text-decoration: none;
+	color: gold;
+	display: block;
+}
+
+ul li a:hover {
+	background-color: gold;
+	color: black;
+	border: 8px outset blue;
+	transition: 0.5s;
+}
+
+ul li ul li {
+	display: none;
+	position: relative;
+}
+
+ul li:hover ul li {
+	display: block;
+	background-color: black;
+
+
+}
+
+#search {
+	background-color: black;
+	padding: 8px;
+	border-radius: 9px;
+}
+
+#search-btn {
+	font-size: 20px;
+	color: white;
+	border: 3px solid white;
+	background-color: transparent;
+	border-radius: 10px;
+	padding: 4px;
+
+}
+
+#search-btn:hover {
+	display: inline-block;
+	background-color: gold;
+	color: black;
+	font-weight: 800;
+	border: 2px solid green;
+	cursor: pointer;
+}
+
+#search-txt {
+	background-color: beige;
+	border-radius: 9px;
+	padding: 5px;
+	color: black;
+	font-weight: bolder;
+	line-height: 10px;
+}
+*/
+
+#main-container {
+	background-color: lightgreen;
+	width: 95%;
+}
+
+#event {
+	background-color: darkslategray;
+	border-radius: 10px 10px 0px 0px;
+	float: left;
+	width: 30%;
+
+}
+
+
+#events {
+	background-color: green;
+	border-radius: 10px;
+	box-shadow: gold 0px 0px 8px;
+	color: white;
+
+	text-align: center;
+	font-family: sans-serif;
+	font-weight: 300;
+	font-size: 10px;
+}
+
+#Ccc {
+	background-color: chocolate;
+	float: left;
+
+}
+
+/*
+slider {
+	display: block;
+	position: absolute;
+	float: left;
+}
+
+slider > * {
+	position: absolute;
+	display: block;
+	width: 50vw;
+	height: 50vh;
+
+}
+
+slide:nth-child(1) {
+	left: 0%;
+	animation-delay: -1s;
+	background-image: url(avocado.php);
+	background-size: cover;
+	background-position: center;
+}
+
+slide:nth-child(2) {
+
+	animation-delay: 2s;
+	background-image: url(avocado1.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+slide:nth-child(3) {
+
+	animation-delay: 6s;
+	background-image: url(avocado2.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+slide:nth-child(4) {
+
+	animation-delay: 10s;
+	background-image: url(avocado3.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+slide:nth-child(5) {
+
+	animation-delay: 14s;
+	background-image: url(avocado4.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+slide:nth-child(6) {
+
+	animation-delay: 17s;
+	background-image: url(berries1.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+slide:nth-child(7) {
+
+	animation-delay: 20s;
+	background-image: url(chicken.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+slide p {
+	text-align: center;
+	font-size: 30ox;
+	display: inline-block;
+	color: aqua;
+}
+
+@keyframes slide {
+	0% {
+		left: 95%;
+		width: 95%;
+	}
+	5% {
+		left: 0%;
+	}
+	25% {
+		left: 0%;
+	}
+	30% {
+		left: -95%;
+		width: 95%;
+	}
+	30.0001% {
+		left: -95%;
+		width: 0%;
+	}
+	100% {
+		left: 95%;
+		width: 0%;
+	}
+}*/
+
+footer {
+	background-color: gray;
+	float: left;
+	width: 95%;
+	border-radius: 0px 0px 10px 10px;
+	padding: 10px;
+	animation: slide 12s infinite;
+	overflow: hidden;
+	text-align: center;
+}

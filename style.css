@@ -1,0 +1,277 @@
+#main-container {
+	width: 90%;
+	margin: 0px auto;
+	background-color: black;
+}
+
+#header {
+	width: 90%;
+	background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1)),
+	url(TITLEPIC.jpg);
+	background-attachment: local;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	align-items: center;
+	justify-content: center;
+	border-radius: 30px 30px 0px 0px;
+	text-align: center;
+	height: 50vh;
+	vertical-align: middle;
+	text-align: center;
+	color: white;
+	margin: 0px auto;
+}
+
+#header h1 {
+	padding-top: 110px;
+}
+
+#header:hover {
+	color: gold;
+	transition: 0.9s;
+	font-size: 4.5vw;
+}
+
+/*<!--styling menus -->*/
+
+.menu {
+	width: 90%;
+
+}
+
+nav {
+	padding: 5px;
+	float: left;
+	margin: 0px auto;
+	width: 95%;
+	background-color: black;
+}
+
+ul {
+	margin: 0px auto;
+
+	list-style: none;
+
+}
+
+ul li {
+
+	text-align: center;
+	float: left;
+	/* this will make the menu appear  horizontal line*/
+	border-radius: 12px;
+	font-size: 18px;
+	line-height: 30px;
+	width: 90px;
+	font-weight: 600;
+	position: relative;
+}
+
+ul li a {
+	text-decoration: none;
+	color: gold;
+	display: block;
+
+}
+
+ul li a:hover {
+	background-color: gold;
+	color: black;
+	border: 8px outset blue;
+	transition: 0.5s;
+	width: 110px;
+}
+
+ul li ul li {
+	display: none;
+	position: relative;
+}
+
+#search {
+	background-color: black;
+	padding: 5px;
+	border-radius: 9px;
+}
+
+#search-btn {
+	font-size: 20px;
+	color: white;
+	border: 3px solid white;
+	background-color: transparent;
+	border-radius: 10px;
+
+}
+
+#search-btn:hover {
+	display: inline-block;
+	background-color: gold;
+	color: black;
+	font-weight: 800;
+	border: 2px solid green;
+	cursor: pointer;
+	padding: 12px;
+}
+
+#search-txt {
+	background-color: beige;
+	border-radius: 9px;
+	padding: 5px;
+	color: black;
+	font-weight: bolder;
+	line-height: 10px;
+}
+
+ul li:hover ul li {
+	display: block;
+
+
+
+}
+
+/*<!--ending of menu styling -->*/
+
+#container {
+	width: 90%;
+	overflow: hidden;
+	background-color: black;
+
+}
+
+
+
+#sidebar {
+	color: coral;
+	background-color: darkslategrey;
+	float: left;
+	width: 35%;
+	margin-left: 5px;
+	padding: 5px;
+	overflow: hidden;
+}
+
+#events {
+	background-color: green;
+	border-radius: 10px;
+	box-shadow: gold 0px 0px 8px;
+	color: white;
+	padding: 2px 2px 2px 2px;
+	text-align: center;
+	font-family: sans-serif;
+	font-weight: 800;
+	font-size: 20px;
+
+}
+
+#imageslider {
+	float: left;
+	margin-left: 5px;
+	background-color: aqua;
+	width: 60%;
+}
+
+
+
+
+
+
+
+
+
+/*< !--smaller screen-- > */
+
+@media screen and (max-width:500px) {
+	* {
+		margin: 0px auto;
+	}
+	#header {
+		width: 90%;
+	}
+	.menu {
+		width: 90%;
+		/* new style  
+		border-bottom: 2px solid beige;
+		text-align: right;
+		height: 60px;
+		/* end */
+	}
+	/* new 
+	nav {
+		margin: 0 30px 0 0;
+	}
+	nav ul li a {
+		text-decoration: none;
+		color: azure;
+		margin: 0 10px;
+		line-height: 60px;
+
+	}
+	
+	/* end new*/
+	label {
+		display: block;
+		cursor: pointer;
+		font: 30px;
+	}
+	#container {
+		width: 90%;
+
+	}
+	#events {
+		background-color: lime;
+		border-radius: 12px;
+		box-shadow: gold 0px 0px 8px;
+		color: white;
+		padding: 1px 2px 1px 2px;
+		text-align: center;
+		font-weight: 500;
+		font-size: 15px;
+
+
+	}
+	#sidebar {
+		width: 90%;
+		background-color: cornflowerblue;
+		border-radius: 5px;
+	}
+	#imageslider {
+		width: 90%;
+		margin-top: 5px;
+		margin-left: 5px;
+		padding: 1px 2px 1px 2px;
+
+	}
+	footer {
+		width: 100%;
+	}
+}
+
+/*< !--medium screen-- > */
+
+/*
+@media screen and (max-width:950px) {
+	#header {
+		width: 100%;
+	}
+	#container {
+		width: 100%;
+
+	}
+	.menu {
+		width: 100%
+	}
+	#sidebar {
+		width: 34%;
+		margin: 4px;
+		padding: 3px;
+	}
+	#imageslider {
+		width: 54%;
+	}
+	footer {
+		width: 98%;
+	}
+}*/
+
+
+// to be to cont...
